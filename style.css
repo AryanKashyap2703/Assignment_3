@@ -1,0 +1,83 @@
+body{
+    background-color: grey;
+}
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+  }
+  p,a,li,figcaption,th,td,label,input{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar-brand img{
+    height: 80px;
+    width: auto;
+  }
+  .a1 .container{
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+  }
+  .a2 .container{
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/background3.jpg');
+    background-size: cover;
+  }
+  .container{
+    padding: 5%;
+  }
+  .container h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 75px;
+    padding-bottom: 7%;
+  }
+  .masthead{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/background1.jpg');
+    background-size: cover;
+  }
+  .masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .masthead div h1{
+    font-size: 4em;
+    color: #fff;
+    text-align: center;
+  }
+  h2,h3{
+    font-style: italic;
+    text-align: center;
+  }
+
+.container img{
+    width: 300px;
+    height: 300px;
+    padding-right: 5%;
+}
+footer{
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(43, 43, 43);
+    padding-bottom: 0%;
+  }
+  footer .b{
+    color: red;
+  }
+  footer .b1{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
